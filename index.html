@@ -5,19 +5,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Bleppy Meme Generator</title>
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div>
-            <input id="input-1" type="text" maxlength="25">
-            <input id="input-2" type="text" maxlength="25">
-            <input id="input-3" type="text" maxlength="25">
-            <input id="input-4" type="text" maxlength="25">
+        <header>
+            <h1>Make your own Bleppy meme!</h1>
+        </header>
+        <div id="inputs-div">
+            <input id="input-2" class="text-input" type="text" placeholder="Panel 2 Text">
+            <input id="input-3" class="text-input" type="text" placeholder="Panel 3 Text">
+            <input id="input-4" class="text-input" type="text" placeholder="Panel 4 Text">
         </div>
         <div id="bleppy-container">
-            <div id="output-1">output1</div>
-            <div id="output-2">o2</div>
-            <div id="output-3">o3</div>
-            <div id="output-4">o4</div>
+            <div class="comic-panel">
+                <div id="output-1" class="text-output"></div>
+            </div>
+            <div class="comic-panel">
+                <div id="output-2" class="text-output">Panel 2 Text</div>
+            </div>
+            <div class="comic-panel">
+                <div id="output-3" class="text-output">Panel 3 Text</div>
+            </div>
+            <div class="comic-panel">
+                <div id="output-4" class="text-output">Panel 4 Text</div>
+            </div>
         </div>
         <script src="scripts.js"></script>
     </body>
