@@ -15,6 +15,7 @@ header {
     display: flex;
     align-items: center;
     padding: 5px;
+    text-align: center;
 }
 
 #inputs-div {
@@ -106,6 +107,5 @@ header {
 
     #bleppy-container {
         zoom: 0.4;
-        -moz-transform: scale(0.4);
     }
 }
