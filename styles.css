@@ -106,5 +106,6 @@ header {
 
     #bleppy-container {
         zoom: 0.4;
+        -moz-transform: scale(0.5);
     }
 }
