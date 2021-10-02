@@ -6,18 +6,23 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Patrick Hand', sans-serif;
-    font-size: 1.2em;
+    font-size: 10pt;
     letter-spacing: 0.05em;
     color: rgb(78, 75, 75);
 }
 
 header {
-    margin: 15px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
 }
 
 #inputs-div {
     display: flex;
+    flex-direction: row;
     width: 75vh;
+    max-width: 75vw;
+    margin: 5px;
     align-items: center;
     justify-content: space-between;
 }
@@ -30,14 +35,14 @@ header {
 }
 
 #bleppy-container {
-    margin-top: 15px;
     background-image: url('bleppy.png');
-    background-position: center;
+    background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     display: grid;
     height: 75vh;
     width: 75vh;
+    margin: 5px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
@@ -80,4 +85,14 @@ header {
     width: 82%;
     height: 10%;
     text-align: left;
+}
+
+@media(max-width: 750px) {
+    #inputs-div {
+        flex-wrap: wrap;
+    }
+
+    #bleppy-container {
+        zoom: 0.5;
+    }
 }
