@@ -99,12 +99,12 @@ header {
     margin-bottom: 0px;
 }
 
-@media(max-width: 750px) {
+@media(max-width: 775px) {
     #inputs-div {
         flex-wrap: wrap;
     }
 
     #bleppy-container {
-        zoom: 0.5;
+        zoom: 0.4;
     }
 }
