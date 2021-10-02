@@ -42,7 +42,7 @@ header {
     background-repeat: no-repeat;
     display: grid;
     height: 75vh;
-    width: 75vh;
+    width: auto;
     margin: 5px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -107,6 +107,5 @@ header {
 
     #bleppy-container {
         zoom: 0.4;
-        max-width: 95vw;
     }
 }
