@@ -35,7 +35,7 @@ header {
 }
 
 #bleppy-container {
-    background-image: url('bleppy.png');
+    background-image: url('bleppy-min.png');
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -98,6 +98,7 @@ header {
 #instructions-div h2 {
     margin-bottom: 0px;
 }
+
 @media(max-width: 750px) {
     #inputs-div {
         flex-wrap: wrap;
